@@ -4,7 +4,8 @@ static void shift_ver(const Arg *arg);
 static void update_old_coords(Client *c, int x, int y, int w, int h);
 
 void
-windowize(const Arg *arg) {
+windowize(const Arg *arg)
+{
 	Client *c = selmon->sel;
 
 	int x = c->x;
@@ -18,7 +19,8 @@ windowize(const Arg *arg) {
 }
 
 void
-shift_hor(const Arg *arg) {
+shift_hor(const Arg *arg)
+{
 	Client *c = selmon->sel;
 
 	int y = c->y;
@@ -33,7 +35,8 @@ shift_hor(const Arg *arg) {
 }
 
 void
-shift_ver(const Arg *arg) {
+shift_ver(const Arg *arg)
+{
 	Client *c = selmon->sel;
 
 	int y = c->y;
@@ -48,7 +51,8 @@ shift_ver(const Arg *arg) {
 }
 
 void
-update_old_coords(Client *c, int x, int y, int w, int h) {
+update_old_coords(Client *c, int x, int y, int w, int h)
+{
 	c->x = x;
 	c->y = y;
 	c->w = w;
