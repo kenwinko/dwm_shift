@@ -100,12 +100,12 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
-	{ MODKEY,			                  XK_c,      spawn,          {.v = browsercmd } },
-	{ MODKEY,			                  XK_w,      windowize,      {0} },
-	{ MODKEY,			                  XK_Left,   shift_hor,      {.i = -1 } },
-	{ MODKEY,			                  XK_Right,  shift_hor,      {.i = 1 } },
-	{ MODKEY,			                  XK_Down,   shift_ver,      {.i = 1 } },
-	{ MODKEY,			                  XK_Up,     shift_ver,      {.i = -1 } },
+	{ MODKEY,			            XK_c,      spawn,          {.v = browsercmd } },
+	{ MODKEY,			            XK_w,      windowize,      {0} },
+	{ MODKEY,			            XK_Left,   shift_hor,      {.i = -1 } },
+	{ MODKEY,			            XK_Right,  shift_hor,      {.i = 1 } },
+	{ MODKEY,			            XK_Down,   shift_ver,      {.i = 1 } },
+	{ MODKEY,			            XK_Up,     shift_ver,      {.i = -1 } },
 };
 
 /* button definitions */
